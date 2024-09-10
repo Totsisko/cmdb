@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to JaroChurch, the parish community management platform.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JaroChurch</title>
+    <style>
+      body { 
+        background: #ECEFF1; 
+        color: rgba(0,0,0,0.87); 
+        font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif; 
+        margin: 0; 
+        padding: 0; 
+      }
+      #root { 
+        background: white; 
+        max-width: 600px; 
+        margin: 100px auto 16px; 
+        padding: 32px 24px; 
+        border-radius: 8px; /* Increased border radius */
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Enhanced shadow for better UI */
+      }
+      #root h2 { 
+        color: #ffa100; 
+        font-weight: bold; 
+        font-size: 18px; /* Slightly increased font size */
+        margin: 0 0 8px; 
+      }
+      #root h1 { 
+        font-size: 24px; /* Increased heading size */
+        font-weight: 300; 
+        color: rgba(0,0,0,0.6); 
+        margin: 0 0 16px;
+      }
+      #root p { 
+        line-height: 1.5; 
+        margin: 16px 0 24px; 
+        font-size: 14px; 
+      }
+      #root a { 
+        display: block; 
+        text-align: center; 
+        background: #039be5; 
+        text-transform: uppercase; 
+        text-decoration: none; 
+        color: white; 
+        padding: 16px; 
+        border-radius: 4px; 
+        transition: background-color 0.3s; 
+      }
+      #root a:hover { 
+        background-color: #0277bd; /* Add hover effect */
+      }
+      #root, #root a { 
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); 
+      }
+      #load { 
+        color: rgba(0,0,0,0.4); 
+        text-align: center; 
+        font-size: 13px; 
+      }
+      @media (max-width: 600px) {
+        body, #root { 
+          margin-top: 0; 
+          background: white; 
+          box-shadow: none; 
+        }
+        body { 
+          border-top: 16px solid #ffa100; 
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div> <!-- React will render the app here -->
+  </body>
+</html>
