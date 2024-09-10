@@ -1,0 +1,23 @@
+/* src/NotificationBell.css */
+.notification-bell-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .notification-bell {
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  .notification-popup {
+    position: absolute;
+    top: 30px; /* Adjust based on the bell position */
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 200px; /* Adjust width as needed */
+    z-index: 1000;
+  }
+  
